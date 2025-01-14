@@ -1,0 +1,1 @@
+# SpiritDetectiveC10.github.io
