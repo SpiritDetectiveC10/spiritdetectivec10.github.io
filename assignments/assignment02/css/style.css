@@ -1,0 +1,59 @@
+/* Structure */
+body {
+    background:url(images/lightblue.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:tan;
+    width:70%;
+    margin:auto; /* center */
+    padding:5px;
+    border: 2px solid red;
+    border-radius:3px;
+    box-shadow: 10px 10px lightblue;
+}
+
+header, footer {
+    background:blue;
+    padding:7px;
+    color:white;
+}
+
+/* Navigation */
+#main-nav ul {
+    padding-left:0;
+}
+
+#main-nav li {
+    list-style-type: none;  /* remove the bullets */
+    display:inline-block;
+}
+
+#main-nav a {
+    color:gold;
+    text-decoration: none;  /* remove the underlines */
+    border-bottom:1px solid transparent;
+}
+
+#main-nav a:hover {
+    color:crimson;
+    border-bottom:1px solid red;
+}
+
+/* Typography */
+header h1 {
+    text-align: center;
+}
+
+footer p {
+    text-align:center;
+}
+
+
+
+
+
+
+
+  
