@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- First Column: Hello Counter -->
+    <div class="column" id="helloColumn">
+      <h2>Say Hello</h2>
+      <div id="helloCounter"></div>
+    </div>
+
+    <!-- Second Column: Color Picker -->
+    <div class="column" id="colorColumn">
+      <h2>Pick a Color</h2>
+      <input type="color" id="colorPicker" />
+      <div id="star" class="star">&#9733;</div>
+    </div>
+
+    <!-- Third Column: Image Change -->
+    <div class="column" id="imageColumn">
+      <h2>Image Change</h2>
+      <img id="image" src="image1.jpg" alt="Image" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

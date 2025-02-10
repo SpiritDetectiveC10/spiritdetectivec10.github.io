@@ -1,0 +1,82 @@
+/* Structure */
+/* Most of css code was borrowed from a previous assignment */
+:root {
+    --main-background-colorz:grey; 
+    --primary-color:#2B91AD;
+    --gallery-color:#FFB58A;
+}
+
+body {
+    background:var(--main-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:white;
+    width:70%;
+    margin:auto; /* center */
+    border-radius:5px;
+    box-shadow: 10px 10px lightblue;
+}
+
+header, footer {
+    background:var(--primary-color);
+    color:white;
+    position:relative;
+    padding:20px 0;
+}
+
+header {
+   /* position:fixed;
+    width:70%;*/
+}
+
+main {
+    padding:5px;
+}
+
+.idea {
+    padding:5px;
+}
+
+.idea:nth-child( even ) {
+    background:var(--main-background-color);
+}
+
+.idea-img {
+    margin-top:20px;
+    padding:5px;
+    text-align: center;
+    position:relative;
+}
+
+.idea-img p {
+    padding:5px;
+    background:var(--primary-color);
+    color:white;
+}
+
+.gallery {
+    background:var(--gallery-color);
+}
+
+.tile, .node {
+    text-align:center;
+    padding:5px;
+}
+
+/* Typography */
+header h1 {
+    text-align: center;
+}
+
+header h2 { 
+    text-align: center;
+}
+
+header h3 {
+    text-align: right;
+}
+footer p {
+    text-align:center;
+}
