@@ -18,7 +18,7 @@ const handleImageChange = () => {
   } else {
     image.src = "porygon1.png"; 
   }
-};
+}; 
 
 
 

@@ -1,0 +1,36 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:white;
+    width:70%;
+    margin:auto; /* center */
+    padding:5px;
+    border: 1px solid darkblue;
+    border-radius:5px;
+}
+
+#container {
+    text-align: center;
+}
+
+header, footer {
+    background:green;
+    padding:5px;
+    color:white;
+}
+
+/* Typography */
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+footer p {
+    text-align:center;
+}

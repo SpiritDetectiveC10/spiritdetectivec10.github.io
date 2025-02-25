@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu Bar -->
+    <header>
+        <div class="menu-bar">
+            <button class="toggle-btn" id="toggle-btn">&#9660;</button>
+            <nav id="menu-items">
+                <a href="#" id="exercise1">Exercise 1: Traveling</a>
+                <a href="#" id="exercise2">Exercise 2: Color My Heart</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Exercise 1: Traveling -->
+        <div id="traveling" class="section">
+            <h2>Traveling</h2>
+            <input type="text" id="transportation" placeholder="Enter transportation mode (bike, scooter, car, skateboard)">
+            <img id="travel-img" src="" alt="" style="display: none;">
+        </div>
+
+        <!-- Exercise 2: Color My Heart -->
+        <div id="color-heart" class="section" style="display: none;">
+            <h2>Color My Heart</h2>
+            <div id="heart" class="heart"></div>
+            <button class="color-btn" onclick="changeHeartColor('red')">Red</button>
+            <button class="color-btn" onclick="changeHeartColor('green')">Green</button>
+            <button class="color-btn" onclick="changeHeartColor('blue')">Blue</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

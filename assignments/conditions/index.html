@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Assignment 8</title>
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h1>Assignment 9</h1>
+                <h2>If Statements</h2>
+                <div class ="menu-bar">
+                <nav id="main-nav">
+                    <a href="#" id="exercise1">Exercise 1: Traveling</a>
+                    <a href="#" id="exercise2">Exercise 2: Color My Heart</a>
+                </nav>
+            </div>
+            </header>
+
+            <main>
+                <div class="main-content">
+                    <div id="traveling" class="section">
+                <h2>Traveling</h2>
+                <input type="text" id="transportation" placeholder="Enter transportation mode (bike, scooter, car, skateboard)">
+                <img id="travel-img" src="" alt="" style="display: none;">
+                </div>
+
+                <div id="color-heart" class="section" style="display: none;">
+                    <h2>Color My Heart</h2>
+                    <div id="heart" class="heart"></div>
+                    <button class="color-btn" onclick="changeHeartColor('red')">Red</button>
+                    <button class="color-btn" onclick="changeHeartColor('green')">Green</button>
+                    <button class="color-btn" onclick="changeHeartColor('blue')">Blue</button>
+                </div>
+            </main>
+
+            <footer>
+                <p>&copy; CJ Morales</p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
